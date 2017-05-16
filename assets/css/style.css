@@ -20,6 +20,7 @@ main {
 .instructions {
 	background: #070075;
 	color: #E8E7FC;
+	padding-top: 1%;
 }
 .comp-guess {
 	font-size: 40px;
