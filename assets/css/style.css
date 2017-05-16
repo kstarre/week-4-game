@@ -1,0 +1,31 @@
+body {
+	background-color: blue;
+	background: url(../images/background/asanoha-400px.png);
+}
+header {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	background: #7F10EE;
+	color: ;
+}
+main {
+	font-family: 'Didact Gothic', sans-serif;
+}
+.instructions {
+	background: #070075;
+	color: #E8E7FC;
+}
+.comp-guess {
+	font-size: 40px;
+	background: #E8E7FC;
+	color: #7F10EE;
+}
+.wins-losses {
+	background: #27B6B9;
+	color: #E8E7FC;
+	font-size: 20px;
+}
+.score {
+	color: #070075;
+	background: #27B6B9;
+	font-size: 20px;
+}

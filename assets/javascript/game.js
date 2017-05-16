@@ -32,6 +32,13 @@ var getCrystalValues = function () {
 	console.log(crystalValue1, crystalValue2, crystalValue3, crystalValue4);
 };
 
+var reset = function () {
+	getCrystalValues();
+	getCompGuess();
+	totalSoFar = 0;
+	$("#current-score").html(totalSoFar);
+}
+
 getCrystalValues();
 getCompGuess();
 
@@ -60,18 +67,12 @@ getCompGuess();
 		if (totalSoFar === compGuess) {
 			wins++;
 			$("#wins").html(wins);
-			getCrystalValues();
-			getCompGuess();
-			totalSoFar = 0;
-			$("#current-score").html(totalSoFar);
+			reset();
 		}
 		else if (totalSoFar > compGuess) {
 			losses++;
 			$("#losses").html(losses);
-			getCrystalValues();
-			getCompGuess();
-			totalSoFar = 0;
-			$("#current-score").html(totalSoFar);
+			reset();
 		}
 	});
 
