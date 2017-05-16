@@ -2,13 +2,20 @@ body {
 	background-color: blue;
 	background: url(../images/background/asanoha-400px.png);
 }
-header {
+.page-header {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	background: #7F10EE;
-	color: ;
+	color: #E8E7FC;
+    border-bottom: none;
 }
 main {
 	font-family: 'Didact Gothic', sans-serif;
+}
+.row {
+	margin-bottom: 10px;
+}
+.same-height {
+	display: flex;
 }
 .instructions {
 	background: #070075;
@@ -18,14 +25,40 @@ main {
 	font-size: 40px;
 	background: #E8E7FC;
 	color: #7F10EE;
+    border: 2px solid #27B6B9;
+}
+#random-number {
+    text-align: center;
+    padding: 3% 0;
 }
 .wins-losses {
 	background: #27B6B9;
 	color: #E8E7FC;
 	font-size: 20px;
+	border: 2px solid #7F10EE;
 }
 .score {
-	color: #070075;
-	background: #27B6B9;
+	color: #E8E7FC;
+	background: #070075;
 	font-size: 20px;
+}
+.btn {
+	height: 100px;
+	width: 100px;
+}
+#btn-1 {
+	background: url(../images/Amethyst.png) center no-repeat;
+	background-size: 100% 100%;
+}
+#btn-2 {
+	background: url(../images/Peridot.png) center no-repeat;
+	background-size: 100% 100%;
+}
+#btn-3 {
+	background: url(../images/Quartz_crystal.png) center no-repeat;
+	background-size: 100% 100%;
+}
+#btn-4 {
+	background: url(../images/Zircon.png) center no-repeat;
+	background-size: 100% 100%;
 }
